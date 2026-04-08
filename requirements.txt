@@ -1,0 +1,46 @@
+# Golden Emirat v2.0 - Dependencies
+# ============================================
+
+# === Core Dependencies ===
+python-telegram-bot==20.6
+requests>=2.31.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# === Trading Platforms ===
+MetaTrader5>=5.0.45
+pyzmq>=25.1.0  # ZeroMQ bridge for MT4
+
+# === GUI Framework ===
+PyQt6>=6.5.0
+PyQt6-WebEngine>=6.5.0  # For charts
+matplotlib>=3.7.0
+Plotly>=5.15.0
+
+# === Time Synchronization ===
+ntplib>=0.4.0
+pytz>=2023.3
+python-dateutil>=2.8.2
+
+# === Sound System ===
+pygame>=2.5.0
+
+# === Notifications ===
+aiohttp>=3.8.0
+
+# === Data Sources ===
+ccxt>=4.0.0  # Crypto/Forex data
+yfinance>=0.2.0  # Yahoo Finance
+beautifulsoup4>=4.12.0  # News parsing
+lxml>=4.9.3  # HTML parser
+
+# === Backtesting Engine ===
+backtrader>=1.9.78.123
+tabulate>=0.9.0
+
+# === Utilities ===
+python-dotenv>=1.0.0
+loguru>=0.7.0
+colorama>=0.4.6
+tqdm>=4.65.0  # Progress bars
+websocket-client>=1.6.0  # Real-time data
